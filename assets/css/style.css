@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   font-size: 32px;
   margin: 3;
-  padding: 3;
+  padding: 5;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1596,3 +1596,4 @@ section {
 .my-whatsApp{
   margin-top:16px;
 }
+
