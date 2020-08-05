@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   padding: 0;
-  background: #fff;
+  background: rgb(0, 0, 0);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -396,7 +396,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -443,7 +442,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
+  height: 250px;
+  width: 250px;
   text-align: center;
   background-color: black;
   opacity: 1;
@@ -663,28 +663,10 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
-  padding: 80px 20px;
+  padding: 1rem;
+  margin: 1rem;
   transition: all ease-in-out 0.3s;
   background: #fff;
-}
-
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: #ffc451;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: 0.3s;
-}
-
-.services .icon-box .icon i {
-  color: #151515;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 {
@@ -1606,3 +1588,60 @@ section {
 video{
   width: 100%;
   }
+
+  .crossfade > figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center center;
+    color: transparent;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .crossfade > figure:nth-child(1) { background-image: url("../img/backg\ \(1\).jpg"); }
+
+.crossfade > figure:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url("../img/backg\ \(2\).jpg");
+}
+
+.crossfade > figure:nth-child(3) {
+  animation-delay: 12s;
+  background-image: url("../img/backg\ \(3\).jpg");
+}
+
+.crossfade > figure:nth-child(4) {
+  animation-delay: 18s;
+  background-image: url("../img/backg\ \(4\).jpg");
+}
+
+.crossfade > figure:nth-child(5) {
+  animation-delay: 24s;
+  background-image: url("../img/backg\ \(5\).jpg");
+}
+
+@keyframes 
+imageAnimation {  0% {
+ animation-timing-function: ease-in;
+ opacity: 0;
+}
+ 8% {
+ animation-timing-function: ease-out;
+ opacity: 1;
+}
+ 17% {
+ opacity: 1
+}
+ 25% {
+ opacity: 0
+}
+ 100% {
+ opacity: 0
+}
+}
