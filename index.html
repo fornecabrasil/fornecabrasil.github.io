@@ -9,6 +9,10 @@
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
+  <!-- Owl Carousel-->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -32,40 +36,50 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
 
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a class="logo"><img src="assets/img/header.png" alt="" class="img-fluid" style="padding: 5px"></a>
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#hero">Home</a></li>
-          <li><a href="#about">Sobre a empresa</a></li>
-          <li><a href="#services">Produtos</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <!-- <li><a href="#team">Equipe</a></li> -->
-        </ul>
-      </nav><!-- .nav-menu -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+      <div class="container d-flex align-items-center justify-content-between">
+  
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a class="logo"><img src="assets/img/header.png" alt="" class="img-fluid" style="padding: 5px"></a>
+  
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="#hero">Início</a></li>
+            <li class="nav-link dropdown-toggle" role="button" style="color: white;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</li>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+                <a class="dropdown-item" href="portfolio-details.html">Painéis de LED Full Color</a>
+                <a class="dropdown-item" href="portfolio-led.html">Relógios Urbanos</a>
+              </div>
+            </li>
+          </ul>
+        </nav><!-- .nav-menu -->
+  
+      </div>
+    </header><!-- End Header -->
 
-      <a href="#about" class="get-started-btn scrollto">Início</a>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= Hero Section ======= !-->
+  <div class="crossfade">
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
+  </div>
   <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
           <h1>Bem vindo a Forneça Brasil<span>.</span></h1>
-          <!-- <h2>Nova frase da empresa<span>.</span></h2> -->
         </div>
       </div>
 
-      <div class="row mt-5 justify-content-center scrollto nav-menu" data-aos="zoom-in" data-aos-delay="250">
+
+
+      <!-- <div class="row mt-5 justify-content-center scrollto nav-menu" data-aos="zoom-in" data-aos-delay="250">
         
         <div class="col-xl-2 col-md-4 col-6">
           <div class="icon-box">
@@ -79,33 +93,145 @@
             <h3><a href="#services">Painél de LED</a></h3>
           </div>
         </div>
-        <!-- <div class="col-xl-2 col-md-4 col-6 mt-4 mt-md-0">
+        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-md-0">
           <div class="icon-box">
             <i class="ri-store-2-line"></i>
             <h3><a>Fachadas</a></h3>
-          </div> -->
-        <!-- </div> -->
+          </div>
+        </div>
         <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
           <div class="icon-box">
             <i class="ri-time-line"></i>
             <h3><a href="#services">Relógios Urbanos</a></h3>
           </div>
         </div>
-        <!-- <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
+        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
           <div class="icon-box">
             <i class="ri-artboard-line"></i>
             <h3><a>Frontlights</a></h3>
-          </div>
-        </div> -->
+          </div> -->
+        </div>
       </div>
 
     </div>
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
+    
+
+
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Produtos</h2>
+            <p>Conheça os nossos Produtos</p>
+          </div>
+
+
+          <div class="section-title">
+            <h1>Painéis Full Color</h1>
+          </div>
+          <div class="owl-carousel">
+  
+
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (1).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Divulgação em Totens de Rua.</p>
+            </div>
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (2).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Divulgação de preços e Marcas.</p>
+            </div>
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (3).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Ótima Visibilidade, ótimo custo benefício. Tecnologia inovadora e de qualidade.</p>
+            </div>
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (4).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Diferente usabilidade com alta qualidade.</p>
+            </div>
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (5).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Mostrador de preços em Posto de Gasolina.</p>
+            </div>
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (6).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Mostrador de ofertas em Posto de Gasolina.</p>
+            </div>
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (7).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Infinitas possibilidades de divulgação e publicidade.</p>
+            </div>
+            <div class="icon-box">
+              <a href="portfolio-details.html"><img  src="assets/img/owl carousel/fcolor (8).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
+              <p>Ótima Visibilidade, melhor maneira de exposição tanto interno quanto externo.</p>
+            </div>
+          </div>
+
+          <div class="section-title">
+            <h1>Relógios Urbanos</h1>
+          </div>
+          <div class="owl-carousel">
+  
+
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (1).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo P-020.</p>
+              </div>
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (2).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo P-10.</p>
+              </div>
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (3).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo Exclusivo Cresol.</p>
+              </div>
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (4).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo Analógico Sob Encomenda.</p>
+              </div>
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (5).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo P-020.</p>
+              </div>
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (6).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo Exclusivo Sicredi</p>
+              </div>
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (7).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo Analógico Sob Encomenda.</p>
+              </div>
+              <div class="icon-box">
+                <a href="portfolio-led.html"> <img src="assets/img/owl carousel/clock (8).jpg" style="width: 300px;padding-bottom: 1rem;height: 300px"></a>
+                <h4><a href="portfolio-details.html">Relógio Urbano</a></h4>
+                <p>Modelo P-020.</p>
+              </div>
+          </div>  
+  </div>
+  
+      </section><!-- End Services Section -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -125,25 +251,9 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>End About Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
 
-        <div class="owl-carousel clients-carousel">
-          <img src="assets/img/clients/client-1.png" alt="">
-          <img src="assets/img/clients/client-2.png" alt="">
-          <img src="assets/img/clients/client-3.png" alt="">
-          <img src="assets/img/clients/client-4.png" alt="">
-          <img src="assets/img/clients/client-5.png" alt="">
-          <img src="assets/img/clients/client-6.png" alt="">
-          <img src="assets/img/clients/client-7.png" alt="">
-          <img src="assets/img/clients/client-8.png" alt="">
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -178,44 +288,23 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
 
-        <div class="section-title">
-          <h2>Produtos</h2>
-          <p>Conheça os nossos Produtos</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 50px;height: 50px;" src="./assets/img/icons/solar-energy.png"></div>
-              <h4><a href="portfolio-details.html">Painél Full Color</a></h4>
-              <p>Ótima Visibilidade, ótimo custo benefício. Tecnologia inovadora e de qualidade.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 50px;height: 50px;" src="./assets/img/icons/led.png"></div>
-              <h4><a href="portfolio-led.html">Painél de LED</a></h4>
-              <p>Temos diversos modelos de Relógios Digitais que satisfazem tanto os mais clássicos quanto mais modernos.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><img style="width: 50px;height: 50px;" src="./assets/img/icons/clock-tower.png"></div>
-              <h4><a>Relógios Urbanos</a></h4>
-              <p>Os relógios urbanos são ótimos para anúncios, pois tem alto poder de visibilidade e divulgam sua marca de maneira efetiva! ⠀</p>
-            </div>
-          </div>
-
+        <div class="owl-carousel clients-carousel">
+          <img src="assets/img/clients/client-1.png" alt="">
+          <img src="assets/img/clients/client-2.png" alt="">
+          <img src="assets/img/clients/client-3.png" alt="">
+          <img src="assets/img/clients/client-4.png" alt="">
+          <img src="assets/img/clients/client-5.png" alt="">
+          <img src="assets/img/clients/client-6.png" alt="">
+          <img src="assets/img/clients/client-7.png" alt="">
+          <img src="assets/img/clients/client-8.png" alt="">
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Clients Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -229,336 +318,6 @@
 
       </div>
     </section><!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Conheça nosso portfolio</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-urbano">Relógio Urbano</li>
-              <li data-filter=".filter-fullcolor">Paínel Full Color</li>
-              <li data-filter=".filter-led">Paínel de LED</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-urbano">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Relógio Urbano de Taió</h4>
-                <p>Relógio Urbano P020</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-urbano">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Relógio Urbano de São Joaquim</h4>
-                <p>Relógio Urbano P112</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-urbano">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Relógio Urbano da Cresol</h4>
-                <p>Relógio Urbano Modelo Exclusivo</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-fullcolor">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Paínel Full Color Posto Shell</h4>
-                <p>Paínel Full Color</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-fullcolor">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Paínel Full Color Posto Shell</h4>
-                <p>Paínel Full Color</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-fullcolor">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Paínel Full Color Loja Honda</h4>
-                <p>Paínel Full Color</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-led">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Paínel de LED</h4>
-                <p>Hora e Temperatura</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-led">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Paínel de LED</h4>
-                <p>Hora, Data e Temperatura</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-led">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Paínel de LED</h4>
-                <p>Hora e Data</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- End Portfolio Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <!-- <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3>Qualidade e reconhecimento</h3>
-              <p>
-                Nossa empresa já está no mercado há tanto anos, contruindo uma base de clientes forte e satisfeitos
-              </p>
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-simple-smile"></i>
-                    <span data-toggle="counter-up">1</span>
-                    <p><strong>Clientes</strong> Feedback dos clientes positivo é o nos empenha a elevar sempre a qualidade</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-document-folder"></i>
-                    <span>Centenas</span>
-                    <p><strong>Projetos</strong> feitos e entregues por todo o Brasil.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="icofont-clock-time"></i>
-                    <span data-toggle="counter-up">12</span>
-                    <p><strong>Anos de experiência no mercado</strong> sempre visando a qualidade e confiança nos produtos</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section -->
-    ><!-- End Counts Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team"> -->
-      <!-- <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Equipe</h2>
-          <p>Conheça a Equipe</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sérgio</h4>
-                <span>CEO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Maia</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dani</h4>
-                <span>Vendas</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Rodrigo</h4>
-                <span>Designer Gráfico</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Team Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contato</h2>
-          <p>Venha até nós!</p>
-        </div>
-
-        <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.1826547837!2d-49.071870684419046!3d-26.482063181759717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de950f0f5f913b%3A0xc629d872b42545dd!2zTMOpcGkgUmVsw7NnaW9z!5e0!3m2!1spt-BR!2sbr!4v1592910947418!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Endereço:</h4>
-                <p> R. Bernardo Dornbusch, 911<br> Vila Baependi, Jaraguá do Sul - SC, 89256-100</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>compras@lepi.com.br</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Telefone:</h4>
-                <p>(47) 3275-3277</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div> -->
-    <!-- </section> -->
 
   </main><!-- End #main -->
 
@@ -609,9 +368,11 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
   <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="floating-wpp.min.js"></script>
-<link rel="stylesheet" href="floating-wpp.min.css">
+  <script type="text/javascript" src="floating-wpp.min.js"></script>
+  <link rel="stylesheet" href="floating-wpp.min.css">
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
